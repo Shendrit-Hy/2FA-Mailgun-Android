@@ -39,6 +39,12 @@ private static final String MAILGUN_DOMAIN = "YOUR MAILGUN DOMAIN";
 
 ```
 
+- Add your email you added on Mailgun to the **emailTest** and give a test password like 123 on **testPassword** in the LoginActivity.java:
+```
+private final String testEmail = "test@gmail.com";
+private final String testPassword = "test123"; // this is the password you need when you run the app and test the 2FA
+```
+
 
 ### 3. Add Dependencies
 
